@@ -9,14 +9,16 @@ import P2 from './p2'
 
 import Bigview from "bigview";
 
-module.exports = function (req, res) {
+module.exports = function (ctx) {
+  var req= ctx.req
+  var res= ctx.res
+  
   httpextra(res)
 
-  const ctx = {
+  var bigpipe = new Bigview({
     req: req,
     res: res
-  }
-  var bigpipe = new Bigview(ctx)
+  })
 
   bigpipe.main = Main
   bigpipe.layout = Layout
