@@ -72,6 +72,7 @@
     "bigview": "^3.0.5",
     "bluebird": "^3.5.3",
     "express": "^4.16.4",
+    "graceful": "^1.0.2",
     "http-extra": "^1.0.2",
     "koa": "^2.6.2",
     "koa-router": "^7.4.0",

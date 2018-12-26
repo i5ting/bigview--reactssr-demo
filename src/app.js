@@ -7,10 +7,9 @@ var Router = require('koa-router');
 const app = new Koa();
 
 var path = require('path')
-
 app.use(serve(path.join(__dirname, '../public')));
 
-
+var router = new Router()
 router.get('/', require('./basic'));
 
 app
