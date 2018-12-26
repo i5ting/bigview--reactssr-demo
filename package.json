@@ -61,7 +61,7 @@
     "nodemon": "^1.17.2",
     "webpack": "^4.0.0",
     "webpack-bundle-analyzer": "^2.9.1",
-    "webpack-cli": "^2.0.9",
+    "webpack-cli": "^3",
     "webpack-dev-server": "^3.0.0"
   },
   "resolutions": {
