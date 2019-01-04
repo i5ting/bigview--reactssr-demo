@@ -6,7 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --progress",
     "start": "webpack --watch --progress & npm run server",
-    "dev": "webpack --watch --progress & npm run server",
+    "dev": "webpack --progress & npm run server",
     "server": "npm run compile & node compiled/bin.js",
     "compile": "babel src --out-dir compiled --source-maps"
   },
